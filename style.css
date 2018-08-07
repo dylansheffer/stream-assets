@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono');
+:root {
+  --main-bg-color: #2d2a2e;
+  --med-bg-color: #221f22;
+  --dark-bg-color: #19181a;
+  --red-color: #ff6188;
+  --green-color: #a9dc76;
+  --yellow-color: #ffd866;
+  --orange-color: #fc9867;
+  --purple-color: #ab9df2;
+  --blue-color: #78dce8;
+  --white-color: #fcfcfa;
+  --grey-color: #BDBBBD;
+  --monospace-font: 'Fira Mono', monospace;
+}
+
+body {
+  background: var(--main-bg-color);
+  color: var(--white-color);
+  font-family: var(--monospace-font);
+}
+
+h1 {
+  color: var(--yellow-color);
+  font-weight: 300;
+}
+
+h1::before {
+  content: "# ";
+}
+
+.flex-row {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.center {
+  align-self: center;
+  justify-self: center;
+}
+
+.full {
+  height: 100vh;
+  width: 100vw;
+}
+
+.hidden {
+  display: none;
+}
+
+.red {
+  color: var(--red-color);
+}
+
+.green {
+  color: var(--green-color);
+}
+
+.yellow {
+  color: var(--yellow-color);
+}
+
+.orange {
+  color: var(--orange-color);
+}
+
+.purple {
+  color: var(--purple-color);
+}
+
+.blue {
+  color: var(--blue-color);
+}
+
+.grey {
+  color: var(--grey-color);
+}
+
+.white {
+  color: var(--white-color);
+}
+
+.social {
+  margin: 5px;
+}
+
+.icon {
+  font-size: 25px;
+}
+
+.heading {
+  width: 300px;
+  height: 175px;
+}
+
+.heading__social {
+  width: 100%;
+  justify-content: space-around;
+}
