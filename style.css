@@ -122,6 +122,11 @@ nav li a:visited {
 .heading {
   width: 300px;
   height: 175px;
+  overflow: hidden;
+}
+
+.heading__link {
+  font-size: 18px;
 }
 
 .heading__social {
