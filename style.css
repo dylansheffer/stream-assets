@@ -29,6 +29,27 @@ h1::before {
   content: "# ";
 }
 
+nav {
+  width: 100%;
+}
+
+nav ul {
+  justify-content: space-around;
+}
+
+nav li {
+  font-size: 25px;
+  list-style: none;
+}
+
+nav li a {
+  color: var(--blue-color)
+}
+
+nav li a:visited {
+  color: var(--purple-color)
+}
+
 .flex-row {
   display: flex;
 }
