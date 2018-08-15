@@ -112,6 +112,14 @@ nav li a:visited {
   color: var(--white-color);
 }
 
+.larger {
+  font-size: larger;
+}
+
+.huge {
+  font-size: 4em;
+}
+
 .social {
   margin: 5px;
 }
