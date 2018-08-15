@@ -18,6 +18,7 @@ body {
   background: var(--main-bg-color);
   color: var(--white-color);
   font-family: var(--monospace-font);
+  margin: 0;
 }
 
 h1 {
@@ -119,6 +120,8 @@ nav li a:visited {
   font-size: 25px;
 }
 
+/* Heading */
+
 .heading {
   width: 300px;
   height: 175px;
@@ -132,4 +135,11 @@ nav li a:visited {
 .heading__social {
   width: 100%;
   justify-content: space-around;
+}
+
+/* Be Right Back */
+
+.cursor {
+  margin-left: 1em;
+  border-right: 0.08em solid var(--yellow-color);
 }
