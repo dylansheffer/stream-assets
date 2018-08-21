@@ -142,6 +142,7 @@ nav li a:visited {
 
 .heading__social {
   width: 100%;
+  max-width: 500px;
   justify-content: space-around;
 }
 
@@ -151,3 +152,7 @@ nav li a:visited {
   margin-left: 1em;
   border-right: 0.08em solid var(--yellow-color);
 }
+
+/* Offline */
+
+#offline {}
