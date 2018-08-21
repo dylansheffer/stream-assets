@@ -116,6 +116,14 @@ nav li a:visited {
   font-size: larger;
 }
 
+.large {
+  font-size: 3em;
+}
+
+.medium {
+  font-size: 2em;
+}
+
 .huge {
   font-size: 4em;
 }
@@ -155,4 +163,10 @@ nav li a:visited {
 
 /* Offline */
 
-#offline {}
+#offline i {
+  font-size: 1.75em;
+}
+
+#offline .heading__link {
+  font-size: 1.5em;
+}
